@@ -26,7 +26,7 @@
 			"numTarjeta": "RnjWpQbmxQ4LmC11h6t52M/UBsPEWUpwZnK9qA2g8W0=",
 			"codMarca": "DI",
 			"codEntidad": "PI",
-			"variasTarjetas": "N"
+			"variasTarjetas": "N",
 			"flujo": {
 				"estado": "iniciar",
 				"campos": {
