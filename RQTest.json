@@ -1,43 +1,37 @@
 {
-	"ConsultarConfiguracionConsumos": {
-		"headerIn": {
-			"dispositivo": "IOS-B5079FA8-8DF4-45E8-BE7C-7F94E568AA11",
-			"empresa": "0010",
-			"canal": "03",
-			"medio": "030006",
-			"aplicacion": "00663",
-			"agencia": "",
-			"tipoTransaccion": "301000301",
-			"geolocalizacion": "-0.3164472905019539,-78.48936173840644",
-			"usuario": "USINTERT",
-			"unicidad": "",
-			"guid": "056feaf2ebf7424c936701d0c536fb61",
-			"fechaHora": "202011261101110149",
-			"filler": "IOS-B5079FA8-8DF4-45E8-BE7C-7F94E568AA11|CLARO|02:00:00:00:00:00|iOS|14.2|Apple|iPhone 11 Pro",
-			"idioma": "es-EC",
-			"sesion": "d66bb95a-407c-42f4-9649-e8d3e520c1ce",
-			"ip": "181.196.73.99",
-			"idCliente": "1713068060",
-			"tipoIdCliente": "0001"
-		},
-		"bodyIn": {
-			"identificacion": "0603093972",
-			"tipoIdentificacion": "0001",
-			"numTarjeta": "RnjWpQbmxQ4LmC11h6t52M/UBsPEWUpwZnK9qA2g8W0=",
-			"codMarca": "DI",
-			"codEntidad": "PI",
-			"variasTarjetas": "N",
-			"flujo": {
-				"estado": "iniciar",
-				"campos": {
-					"campo": [
-						{
-							"clave": "",
-							"valor": ""
-						}
-					]
-				}
-			}
-		}
-	}
+   "dinHeader":{
+      "aplicacionID":"TCHNSY",
+      "canalID":"IN",
+      "uuid":"429506.2674208",
+      "ip":"200.115.33.10",
+      "horaTransaccion":"2020-11-30T18:30:47.704986-05:00",
+      "nivelTrace":"DEBUG",
+      "nombreServicio":" ConsultasConfiguracionRed"
+   },
+   "ConsultasConfiguracionRedResponse":{
+      "consInternetNacCons":"16640.00",
+      "consInternetNacEst":"true",
+      "consInternetNacMod":"true",
+      "consInternetInterCons":"16640.00",
+      "consInternetInterEst":"true",
+      "consInternetInterMod":"true",
+      "ATMLocalCons":"300.00",
+      "ATMLocalEst":"true",
+      "ATMLocalMod":"true",
+      "ATMInterCons":"300.00",
+      "ATMInterEst":"true",
+      "ATMInterMod":"true",
+      "consNacionalesCons":"16640.00",
+      "consNacionalesEst":"true",
+      "consNacionalesMod":"true",
+      "consInternacionalesCons":"16640.00",
+      "consInternacionalesEst":"true",
+      "consInternacionalesMod":"true",
+      "tipoCupo":"F",
+      "cupoFijoCuenta":"16640.00",
+      "cupoRef":"0.00",
+      "cupoFijoATM":"300.00",
+      "cupoGlobal":"16640.00",
+      "tipCupo":"G"
+   }
 }
